@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SpaDay.Controllers
 {
-    public class SpaController : Controller
+    public class SpaController : Microsoft.AspNetCore.Mvc.Controller
     {
         public bool CheckSkinType(string skinType, string facialType)
         {

@@ -9,7 +9,7 @@ using SpaDay.Models;
 
 namespace SpaDay.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Microsoft.AspNetCore.Mvc.Controller
     {
         private readonly ILogger<HomeController> _logger;
 
